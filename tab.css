@@ -1,0 +1,23 @@
+.tab_wrapper{
+  width: 50%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 250px;
+  }
+.tab-content{
+    display: none;
+}
+
+.active-button{
+    display: block;
+    background-color: rgba(21, 21, 196, 0.507);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.active-content{
+  display: block;
+}
